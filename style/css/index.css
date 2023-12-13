@@ -19,6 +19,7 @@ li{
     list-style: none;
 }
 nav{
+    border-bottom: 3px solid #363A3F;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -28,7 +29,7 @@ nav ul {
     background:#111113;
     position: fixed;
     left: -100%;
-    top: 12%;
+    top: 17%;
     flex-direction: column;
     
     width: 100%;
