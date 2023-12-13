@@ -14,7 +14,7 @@ li{
 }
 nav{
     padding: 20px;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(40, 39, 39);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@ nav li:hover{
     color: white;
 }
 #image{
-    margin: 10% auto 10%;
+    margin: 15% auto 5%;
     width: fit-content;
 }
 #photo{
@@ -58,25 +58,29 @@ nav li:hover{
     border-top-left-radius: 300px;
     width: 200px;
     height: 300px;
-    box-shadow: -1px -1px 16px -5px rgba(233, 230, 230, 0.26);
+    box-shadow: 0px -4px 25px -10px rgba(180,180,180,0.59);
+
 }
 #bonjour{
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(235, 233, 233);
 }
 #name{
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     color: white;
 }
 #job{
     text-align: center;
-    color: rgb(162, 154, 154);
+    color: rgb(143, 140, 140);
     width: 96%;
-    font-size: 22px;
+    font-size: 24px;
     margin: 15px auto;
+    text-shadow: 1px 1px 1px rgba(126,126,126,0.62)
 
+
+    ;
 }
 .active #icon:before{
     content: "\2715";
