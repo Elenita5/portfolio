@@ -4,7 +4,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(21, 21, 21);
+    background:#111113;
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -20,12 +20,12 @@ li{
 }
 nav{
     padding: 20px;
-    background-color: rgb(40, 39, 39);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 nav ul {
+    background:#111113;
     position: fixed;
     left: -100%;
     top: 12%;
@@ -39,7 +39,7 @@ nav li{
     padding: 10px;
 }
 nav li:hover{
-    background-color: rgb(66, 66, 66);
+   background:  #272A2D;
 }
 #home{
     margin-top: 160px;
@@ -55,7 +55,7 @@ nav li:hover{
 #icon:before{
     font-size: 24px;
     content: "\2630";
-    color: white;
+    color: #EDEEF0;
 }
 #image{
     margin: 12% auto 5%;
@@ -72,16 +72,16 @@ nav li:hover{
 #bonjour{
     text-align: center;
     font-size: 26px;
-    color: rgb(235, 233, 233);
+    color: #EDEEF0;
 }
 #name{
     text-align: center;
     font-size: 26px;
-    color: white;
+    color: #EDEEF0;
 }
 #job{
     text-align: center;
-    color: rgb(143, 140, 140);
+    color: #EDEEF0;
     width: 96%;
     font-size: 26px;
     margin: 15px auto;
@@ -92,7 +92,7 @@ nav li:hover{
 }
 .lien-nav{
     text-decoration: none;
-    color: white;
+    color: #EDEEF0;
 }
 nav.active ul{
     left: 0;
@@ -102,7 +102,7 @@ nav.active ul{
 }
 h1{
     text-align: center;
-    color: white;
+    color: #EDEEF0;
     font-weight: 500;
     font-size: 26px;
 }
