@@ -73,13 +73,14 @@ nav li:hover{
 }
 #bonjour{
     text-align: center;
-    font-size: 26px;
+    font-size: 18px;
     color: #EDEEF0;
 }
 #name{
     text-align: center;
     font-size: 26px;
     color: #EDEEF0;
+    font-weight: bold;
 }
 #job{
     text-align: center;
