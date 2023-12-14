@@ -65,8 +65,8 @@ nav li:hover{
 }
 #photo{
    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     box-shadow: 0px -4px 25px -10px rgba(180,180,180,0.59);
 
 }
